@@ -1,0 +1,29 @@
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+}
+header {
+	border-bottom: 1 px solid;
+	margin-bottom: 2 rem;
+	
+	text-align: center;	
+}
+
+header h1 a {
+	color: blue ;
+	text-decoration: none;
+	
+}
+ .post-entry{
+ 	text-align: center;
+ 	margin-bottom: 2 rem;
+ }
+
+ .post-entry p {
+ 	margin: 0;
+ 	font-weight: 400;
+ }
+
+ .post-entry h2 a:hover {
+ 	color: blue;
+ }
