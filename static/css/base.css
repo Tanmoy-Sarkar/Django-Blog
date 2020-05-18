@@ -1,29 +1,43 @@
-body {
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size: 18px;
-}
-header {
-	border-bottom: 1 px solid;
-	margin-bottom: 2 rem;
-	
-	text-align: center;	
+body
+{
+	background-color: black;
 }
 
-header h1 a {
-	color: blue ;
-	text-decoration: none;
+.navbar-items
+{	
+	color: white;
 	
 }
- .post-entry{
- 	text-align: center;
- 	margin-bottom: 2 rem;
- }
+#Home  
+{	
+	font-family: 'Kaushan Script', cursive !important;
+	font-size: 40px;
+}
+#navbar 
+{
+	background-color: black;
+	font-family: 'Kaushan Script', cursive !important;
+	border-bottom: 3px solid white;
 
- .post-entry p {
- 	margin: 0;
- 	font-weight: 400;
- }
-
- .post-entry h2 a:hover {
- 	color: blue;
- }
+}
+#newpost
+{
+	padding-right: : -0.25rem !important;
+	font-size: 40px;
+}
+#login
+{
+	background-color: black;
+	color: white;
+	border-bottom: 3px solid white;
+}
+#post-entry
+{
+	color: white !important;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Permanent Marker', cursive;
+}
+#post-detail
+{
+	color: white !important;
+}
