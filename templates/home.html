@@ -4,7 +4,7 @@
 	{% for post in object_list %}
 	<div  class="text-center pt-2" id="post-entry">
 		<h2><a href="{% url 'post_detail' post.pk %}">{{post.title}}</a></h2>
-		<p>{{post.body|truncatewords:5}}</p>
+		<p>{{post.body|truncatewords:50}}</p>
 	</div>
 	{% endfor %}
 {% endblock content %}
